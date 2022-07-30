@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CvProyecto.Views.AboutPage"
+             xmlns:vm="clr-namespace:CvProyecto.ViewModels"
+             xmlns:controls="clr-namespace:Xamd.ImageCarousel.Forms.Plugin.Abstractions;assembly=Xamd.ImageCarousel.Forms.Plugin.Abstractions"
+             Title="{Binding Title}">
+
+    <StackLayout>
+        <StackLayout HorizontalOptions="Center">
+            <Label Text="Bienvenido" TextColor="Coral"
+               FontSize="20"
+               />
+            <Label Text="Hojas de vida"
+                   FontSize="20"/>
+        </StackLayout>
+        <StackLayout HorizontalOptions="Center">
+            <controls:ImageCarousel x:Name="imgSlider" HeightRequest="300" WidthRequest="400"/>
+        </StackLayout>
+        <StackLayout Orientation="Vertical">
+         
+            <Frame VerticalOptions="FillAndExpand" 
+               Margin="10,10,10,10"
+               CornerRadius="20"
+               HasShadow="False">
+                <StackLayout VerticalOptions="Center" Spacing="15">
+                    <Button Text="Diana Almeida"
+                        BackgroundColor="{StaticResource Primary}"
+                        CornerRadius="10" Clicked="Abrir_cv"/>
+                    <Button Text="David Cacuango"
+                        BackgroundColor="{StaticResource Primary}"
+                        CornerRadius="10" Clicked="Abrir_cv" />
+                    <Button Text="Bryan Quisaguano"
+                        BackgroundColor="{StaticResource Primary}"
+                        CornerRadius="10" Clicked="Abrir_cv"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </StackLayout>
+    
+
+</ContentPage>
