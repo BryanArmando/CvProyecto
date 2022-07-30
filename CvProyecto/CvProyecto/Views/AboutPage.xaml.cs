@@ -18,9 +18,17 @@ namespace CvProyecto.Views
 
             imgSlider.Images = imageSources;
         }
-        private void Abrir_cv(object sender, EventArgs e)
+        private void Abrir_cv1(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new CvPage());
+            Navigation.PushAsync(new CvDiana());
+        }
+        private void Abrir_cv2(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new CvDavid());
+        }
+        private void Abrir_cv3(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new CvBryan());
         }
     }
 }

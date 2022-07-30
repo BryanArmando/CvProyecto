@@ -26,13 +26,13 @@
                 <StackLayout VerticalOptions="Center" Spacing="15">
                     <Button Text="Diana Almeida"
                         BackgroundColor="{StaticResource Primary}"
-                        CornerRadius="10" Clicked="Abrir_cv"/>
+                        CornerRadius="10" Clicked="Abrir_cv1"/>
                     <Button Text="David Cacuango"
                         BackgroundColor="{StaticResource Primary}"
-                        CornerRadius="10" Clicked="Abrir_cv" />
+                        CornerRadius="10" Clicked="Abrir_cv2" />
                     <Button Text="Bryan Quisaguano"
                         BackgroundColor="{StaticResource Primary}"
-                        CornerRadius="10" Clicked="Abrir_cv"/>
+                        CornerRadius="10" Clicked="Abrir_cv3"/>
                 </StackLayout>
             </Frame>
         </StackLayout>

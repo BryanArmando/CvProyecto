@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CvProyecto.Views.CvDavid">
+    <StackLayout>
+        <Frame BackgroundColor="LightSlateGray" Padding="24" CornerRadius="0">
+            <Label Text="Tu Información" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Frame BackgroundColor="white" Padding="24" CornerRadius="0">
+            <Image Source="https://avatars.githubusercontent.com/u/66538886?v=4"
+                   WidthRequest="200"
+                   HeightRequest="200"
+                   >
+
+            </Image>
+        </Frame>
+        <StackLayout
+            Orientation="Vertical"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            >
+
+            <StackLayout
+                Orientation="Horizontal"
+               VerticalOptions="Center"
+            HorizontalOptions="Center"
+                >
+                <Label Text="David Cacuango" FontSize="Title" />
+
+            </StackLayout>
+            <StackLayout
+                Orientation="Horizontal"
+               VerticalOptions="Center"
+            HorizontalOptions="Center"
+                >
+                <Label Text="Estudios Realizados:" FontSize="16" />
+                <Label Text="Escuela Politécnica Nacionál" FontSize="16" />
+
+            </StackLayout>
+            <StackLayout
+                Orientation="Horizontal"
+         VerticalOptions="Center"
+            HorizontalOptions="Center"
+                >
+                <Label Text="Carrera profesional:" FontSize="16" />
+                <Label Text="Desarrollo de software" FontSize="16" />
+
+            </StackLayout>
+
+        </StackLayout>
+        <StackLayout
+                Orientation="Vertical"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+                >
+            <Label HorizontalTextAlignment="Center" Text="Descripción:" FontSize="16" />
+            <Label Text="Realizó sus estudios secundarios en la Unidad Educativa Víctor Manuel Guzmán. Actualmente estudia en la Escuela Politécnica Nacional en la carrera Tecnología Superior en Desarrollo de Software y está cursando el cuarto semestre." FontSize="16" />
+
+        </StackLayout>
+        <StackLayout
+                Orientation="Vertical"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+                >
+            <Label HorizontalTextAlignment="Center" Text="Interes:" FontSize="16" />
+            <Label Text="Hacking ético, desarrollo FrontEnd. Desarrollo de aplicaciones móviles" FontSize="16" />
+
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>
